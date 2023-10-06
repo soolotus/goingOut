@@ -29,5 +29,16 @@ export default function App() {
   );
 }
 function FriendsList() {
-  return <ul>hello</ul>;
+  return (
+    <ul>
+      <Friend />
+    </ul>
+  );
+}
+function Friend() {
+  return (
+    <div>
+      <li>friend</li>
+    </div>
+  );
 }
