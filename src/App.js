@@ -39,6 +39,7 @@ function Friend() {
   return (
     <div>
       <li>friend</li>
+      <button>Add</button>
     </div>
   );
 }
